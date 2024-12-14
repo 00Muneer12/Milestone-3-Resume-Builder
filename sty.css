@@ -1,0 +1,90 @@
+
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container {
+   background: white;
+   padding: 40px;
+   border-radius: 10px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 600px;
+}
+
+h1 {
+   text-align: center;
+   color: #333;
+   margin-bottom: 30px;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+label {
+   font-size: 16px;
+   font-weight: bold;
+   color: #333;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+   transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+   border-color: #007BFF;
+   outline: none;
+}
+
+textarea {
+   resize: none;
+}
+
+.btn {
+   background-color: #007BFF;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 100%;
+   transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+   background-color: #0056b3;
+}
+
+#resumeOutput {
+   margin-top: 30px;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   display: none; /* Initially hidden */
+}
+
+#resumeOutput h2 {
+   color: #333;
+}
+
+#resumeOutput p {
+   font-size: 14px;
+   line-height: 1.6;
+   margin: 10px 0;
+}
